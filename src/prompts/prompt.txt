@@ -1,0 +1,12 @@
+
+
+Genera código Python COMPLETO para una CNN que clasifique imágenes de hojas de limón en:
+1. Con áfidos (pulgones)
+2. Sin áfidos (hoja sana)
+
+REQUISITOS:
+- Dataset en: /content/Images
+- Tamaño imagen: 224x224
+- Framework: PyTorch O TensorFlow (elegir uno)
+- Incluir data augmentation, early stopping, métricas
+- Código ejecutable directamente

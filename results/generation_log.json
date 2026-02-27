@@ -1,0 +1,38 @@
+[
+  {
+    "llm": "gemini",
+    "run": 1,
+    "filepath": "/content/drive/MyDrive/LeLePhid_LLM_CNN/src/generated_code/cnn_gemini_run1_20260227_034242.py",
+    "timestamp": "20260227_034242"
+  },
+  {
+    "llm": "gemini",
+    "run": 2,
+    "filepath": "/content/drive/MyDrive/LeLePhid_LLM_CNN/src/generated_code/cnn_gemini_run2_20260227_034334.py",
+    "timestamp": "20260227_034334"
+  },
+  {
+    "llm": "gpt",
+    "run": 1,
+    "filepath": "/content/drive/MyDrive/LeLePhid_LLM_CNN/src/generated_code/cnn_gpt_run1_20260227_034350.py",
+    "timestamp": "20260227_034350"
+  },
+  {
+    "llm": "gpt",
+    "run": 2,
+    "filepath": "/content/drive/MyDrive/LeLePhid_LLM_CNN/src/generated_code/cnn_gpt_run2_20260227_034407.py",
+    "timestamp": "20260227_034407"
+  },
+  {
+    "llm": "grok",
+    "run": 1,
+    "filepath": "/content/drive/MyDrive/LeLePhid_LLM_CNN/src/generated_code/cnn_grok_run1_20260227_034419.py",
+    "timestamp": "20260227_034419"
+  },
+  {
+    "llm": "grok",
+    "run": 2,
+    "filepath": "/content/drive/MyDrive/LeLePhid_LLM_CNN/src/generated_code/cnn_grok_run2_20260227_034434.py",
+    "timestamp": "20260227_034434"
+  }
+]
