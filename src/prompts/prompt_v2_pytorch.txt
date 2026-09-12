@@ -1,1 +1,44 @@
 
+
+Genera código Python COMPLETO para una CNN que clasifique imágenes de hojas de limón en:
+1. Con áfidos (pulgones) → clase 1
+2. Sin áfidos (hoja sana) → clase 0
+
+El dataset está organizado de la siguiente manera:
+- Entrenamiento: /content/Images/Images/train/
+- Validación:   /content/Images/Images/val/
+- Prueba:       /content/Images/Images/test/
+Cada carpeta contiene subcarpetas 'aphids' (clase 1) y 'healthy' (clase 0).
+
+Requisitos:
+- Tamaño de imagen: 224x224 píxeles.
+- Framework: SOLO PyTorch (NO usar TensorFlow bajo ninguna circunstancia).
+- Data augmentation: solo en el conjunto de entrenamiento.
+- Early stopping: basado en la pérdida de validación (monitor='val_loss').
+- Entrenamiento: número de épocas suficiente (por ejemplo 50) con early stopping.
+
+- **Métricas**:
+  *Durante el entrenamiento*: mostrar cada época la pérdida y accuracy de entrenamiento y validación.
+
+  *Al finalizar el entrenamiento*: **OBLIGATORIAMENTE** evalúa el modelo en el conjunto de **PRUEBA (test set)** que está en /content/Images/Images/test/.
+  **NO** reportes la accuracy de entrenamiento como test_accuracy.
+
+  Imprime en la salida estándar, **exactamente con estos nombres**:
+  - val_accuracy: (valor numérico entre 0 y 1)
+  - test_accuracy: (valor numérico entre 0 y 1) → **debe ser calculado sobre el conjunto de prueba**
+  - val_loss: (valor numérico)
+  - test_loss: (valor numérico) → **debe ser calculado sobre el conjunto de prueba**
+  - f1_score: (valor numérico entre 0 y 1) → **sobre el conjunto de prueba**
+
+- **IMPORTANTE**:
+  - El conjunto de prueba NO debe usarse para entrenamiento ni para early stopping.
+  - La métrica test_accuracy NO debe ser 1.0 a menos que el modelo sea perfecto (caso improbable).
+  - Si ves test_accuracy = 1.0 o test_loss = 0.0, revisa que estás evaluando en el conjunto correcto.
+
+- El código debe ser completamente ejecutable.
+- Asegúrate de evitar divisiones por cero al calcular pesos de clase. Si una clase tiene pocos ejemplos, usa `torch.nan_to_num` para reemplazar `inf` o `nan` por 1.0.
+- **Compatibilidad**: usa sintaxis compatible con NumPy 2.0 (usa `np.inf` en lugar de `np.Inf`). No incluyas el argumento `verbose` en `ReduceLROnPlateau`.
+- **Estructura del código**: Asegúrate de que todo el código esté correctamente indentado y que no haya bloques `try` sin `except` o `except` sin excepción. No incluyas texto antes del código; empieza directamente con los imports.
+- **Importaciones**: Incluye todas las importaciones necesarias al inicio del archivo (numpy, torch, torchvision, etc.).
+
+Nota: las imágenes con "aphid" en el nombre pertenecen a la clase 1 (con áfidos), las que tienen "healthy" a la clase 0 (sin áfidos).
