@@ -1,0 +1,15 @@
+success,execution_time,test_accuracy,f1_score,val_loss,cpu_%,ram_used_gb,gpu_%,llm,version,run,filepath
+True,75.77185297012329,0.9766,0.9758,0.0803,2.0,1.3,0.0,gpt,v1,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/gpt/v1_base_cnn_gpt-4o_gpt_run1_20260705_062456.py
+True,74.92930960655212,0.9453,0.9452,0.0711,2.0,1.2,0.0,gpt,v1,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/gpt/v1_base_cnn_gpt-4o_gpt_run2_20260705_062503.py
+True,72.65531873703003,0.9844,0.9841,0.1216,53.0,1.3,0.0,gpt,v2,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/gpt/v2_pytorch_cnn_gpt-4o_gpt_run1_20260705_064702.py
+True,82.70728898048401,0.9609,0.959,0.082,2.0,1.3,0.0,gpt,v2,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/gpt/v2_pytorch_cnn_gpt-4o_gpt_run2_20260705_064713.py
+True,77.31686782836914,0.9844,0.9847,0.1557,55.8,1.3,0.0,grok,v1,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/grok/v1_base_cnn_grok-4-1-fast-reasoning_grok_run1_20260705_062523.py
+True,74.0229001045227,,,0.016,54.5,1.3,0.0,grok,v1,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/grok/v1_base_cnn_grok-4-1-fast-reasoning_grok_run2_20260705_062535.py
+True,74.89893555641174,,,0.1305,55.1,1.3,0.0,grok,v2,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/grok/v2_pytorch_cnn_grok-4-1-fast-reasoning_grok_run1_20260705_064720.py
+True,76.73505997657776,,,0.189,18.8,1.3,0.0,grok,v2,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/grok/v2_pytorch_cnn_grok-4-1-fast-reasoning_grok_run2_20260705_064728.py
+True,98.20385646820068,,,,2.5,1.3,0.0,claude,v1,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/claude/v1_base_cnn_claude-sonnet-4-6_claude_run1_20260705_062612.py
+True,99.1046450138092,,,,49.2,1.2,0.0,claude,v1,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/claude/v1_base_cnn_claude-sonnet-4-6_claude_run2_20260705_062649.py
+True,98.48337507247925,,,,3.0,1.2,0.0,claude,v2,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/claude/v2_pytorch_cnn_claude-sonnet-4-6_claude_run1_20260705_064804.py
+True,101.56043744087219,,,,2.5,1.3,0.0,claude,v2,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/claude/v2_pytorch_cnn_claude-sonnet-4-6_claude_run2_20260705_064843.py
+True,213.97925448417664,0.652344,0.597285,0.6935,2.5,1.3,0.0,claude,v3,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/claude/v3_tensorflow_cnn_claude-sonnet-4-6_claude_run1_20260705_070955.py
+True,216.07968974113464,,,0.7404,3.0,1.2,0.0,claude,v3,7,/content/drive/MyDrive/LeLePhid_LLM_CNN/src/historical_models/run_7/claude/v3_tensorflow_cnn_claude-sonnet-4-6_claude_run2_20260705_071032.py
