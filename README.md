@@ -59,10 +59,6 @@ claude_key = userdata.get('CLAUDE_KEY')
 
 ---
 
-## 📝 ¿QUÉ DEBES REEMPLAZAR?
-
-Solo debes cambiar:
-
 1. **`[freddy.maldonado@yachaytech.edu.ec]`**
 2. **`Enero 2026`** 
 3. **`pipeline_completo.ipynb`** 
