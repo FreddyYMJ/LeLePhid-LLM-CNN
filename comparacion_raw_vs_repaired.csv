@@ -1,0 +1,5 @@
+llm,n_total_raw,n_pylint7_raw,tasa_pylint7_%_raw,pylint_promedio_raw,n_total_repaired,n_pylint7_repaired,tasa_pylint7_%_repaired,pylint_promedio_repaired,mejora_pp
+claude,60.0,0.0,0.0,0.0,60,54,90.0,8.2295,90.0
+gemini,,,,,3,2,66.7,7.696666666666666,
+gpt,60.0,0.0,0.0,0.0,60,36,60.0,5.475,60.0
+grok,60.0,0.0,0.0,0.0,60,40,66.7,5.4991666666666665,66.7
